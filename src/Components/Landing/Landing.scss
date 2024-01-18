@@ -1,0 +1,77 @@
+.landing {
+    background-image: url(../../../public/Images/wave-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-size: 44px;
+        color: var(--contrast);
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    hr {
+        border: 2px solid var(--contrast);
+        text-align: left;
+        margin-left: 0vw;
+        width: 25vw;
+    }
+
+    h1 {
+        font-size: 45px;
+        color: white;
+        margin-top: 1vh;
+        margin-bottom: 1.5vh;
+    }
+
+    .intro {
+        width: 30vw;
+        color: var(--text);
+    }
+}
+
+.landing-buttons {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+
+    .land-button {
+        width: fit-content;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5vw;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: transparent;
+        border: none;
+        color: var(--text-none);
+    }
+    
+    .icon {
+        font-size: 32px;
+    }
+
+    .land-button2 {
+        width: fit-content;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5vw;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: var(--contrast);
+        border: none;
+        border-radius: 10px;
+        color: black;
+    }
+}

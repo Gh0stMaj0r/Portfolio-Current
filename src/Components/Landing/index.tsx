@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Landing.scss'
-import { CloudArrowDown, ArrowDownCircle, Steam, Github } from "react-bootstrap-icons"; 
+import { CloudArrowDown, ArrowDownCircle, Steam, Github, Facebook, Linkedin, Discord } from "react-bootstrap-icons"; 
 
 const Landing = () => {
     return (
@@ -20,7 +20,8 @@ const Landing = () => {
                     <button className="land-button">
                         <CloudArrowDown className="icon"/>
 
-                        <span>Download CV</span>
+                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing">
+                            <span>Download CV</span></a>
                     </button>
 
                     <button className="land-button2">
@@ -30,9 +31,13 @@ const Landing = () => {
                     </button>
                     </div>
 
-                    <div className="social-landing">
-
-                    </div>
+                <div className="social-landing">
+                    <a href="https://steamcommunity.com/id/Gh0stMaj0r/"><Steam className="social-icons"/></a>
+                    <a href="https://github.com/Gh0stMaj0r"><Github className="social-icons"/></a>
+                    <a><Facebook className="social-icons"/></a>
+                    <a href="https://www.linkedin.com/in/arttu-suhonen"><Linkedin className="social-icons"/></a>
+                    <a><Discord className="social-icons"/> </a>        
+                </div>
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
     <nav className="header wrapper">
         <div className="content">
-        <a className="logo">Portfolio</a>
+        <a className="logo">Developer<span>.</span></a>
         <div className="header-right">
             <a className="hover-effect" href="#home">Home</a>
             <a className="hover-effect" href="#contact">About me</a>

@@ -34,6 +34,7 @@
     .intro {
         width: 30vw;
         color: var(--text);
+        letter-spacing: 2px;
     }
 }
 
@@ -41,6 +42,7 @@
     display: flex;
     align-items: center;
     gap: 3vw;
+    padding-bottom: 8vh;
 
     .land-button {
         width: fit-content;
@@ -54,6 +56,11 @@
         background-color: transparent;
         border: none;
         color: var(--text-none);
+
+        span {
+            color: var(--text-none);
+            text-decoration: none;
+        }
     }
     
     .icon {
@@ -73,5 +80,19 @@
         border: none;
         border-radius: 10px;
         color: black;
+    }
+}
+
+.social-landing {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 2vw;
+
+    .social-icons {
+        background-color: var(--icons);
+        padding: 15px;
+        border-radius: 40px;
+        color: var(--text-none);
     }
 }

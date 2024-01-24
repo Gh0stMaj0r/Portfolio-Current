@@ -20,7 +20,7 @@ const Landing = () => {
                     <button className="land-button">
                         <CloudArrowDown className="icon"/>
 
-                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing" target="_blank">
                             <span>Download CV</span></a>
                     </button>
 
@@ -32,11 +32,11 @@ const Landing = () => {
                     </div>
 
                 <div className="social-landing">
-                    <a href="https://steamcommunity.com/id/Gh0stMaj0r/"><Steam className="social-icons"/></a>
-                    <a href="https://github.com/Gh0stMaj0r"><Github className="social-icons"/></a>
+                    <a href="https://steamcommunity.com/id/Gh0stMaj0r/" target="_blank"><Steam className="social-icons"/></a>
+                    <a href="https://github.com/Gh0stMaj0r" target="_blank"><Github className="social-icons"/></a>
                     <a><Facebook className="social-icons"/></a>
-                    <a href="https://www.linkedin.com/in/arttu-suhonen"><Linkedin className="social-icons"/></a>
-                    <a><Discord className="social-icons"/> </a>        
+                    <a href="https://www.linkedin.com/in/arttu-suhonen" target="_blank"><Linkedin className="social-icons"/></a>
+                    <a href="https://discordapp.com/users/287671875121840128" target="_blank"><Discord className="social-icons"/> </a>        
                 </div>
                 </div>
             </div>

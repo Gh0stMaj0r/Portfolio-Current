@@ -1,0 +1,47 @@
+.whatimdoing {
+    background-color: var(--pages2);
+}
+
+.whatido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-none);
+
+    h2 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 1000;
+        padding-top: 10vh;
+    }
+}
+
+.whatido-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    height: 40vh;
+
+    .icons-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .icons-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: center;
+        gap: 0.5vw;
+
+        .icon {
+            color: var(--contrast);
+        }
+    }
+}

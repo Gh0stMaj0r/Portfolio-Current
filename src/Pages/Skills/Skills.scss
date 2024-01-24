@@ -5,6 +5,10 @@
 .skills2 {
     height: 80vh;
     padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .myskills {

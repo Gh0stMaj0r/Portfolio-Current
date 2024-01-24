@@ -14,7 +14,7 @@ const Skills = () => {
                     <h2>SKILLS</h2>
                     <hr></hr>
                     <div className="skills2 coding-column">
-                    <div className="coding-skills">
+                        <div className="coding-skills">
                             <div className="coding-column">
                                 <FaHtml5 className="icon" />
                                 <p>HTML</p>

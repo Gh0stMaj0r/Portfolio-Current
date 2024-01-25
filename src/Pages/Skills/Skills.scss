@@ -2,21 +2,12 @@
     background-color: var(--pages);
 }
 
-.skills2 {
-    height: 80vh;
-    padding-top: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .myskills {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     color: var(--text-none);
+    height: 80vh;
 
     hr {
         width: 2vw;
@@ -31,26 +22,43 @@
     }
 }
 
-.coding-column {
+.skills-flex-row {
     display: flex;
-    flex-direction: column;
-    gap: 5vh;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
 
-    p {
-        margin: 0;
-        font-size: 20px;
-        text-align: center;
-    }
+    .icons-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
 
-    .icon {
-        color: var(--contrast);
+        .icons-row {
+            display: flex;
+            font-size: 6rem;
+            gap: 3vw;
+        }
     }
 }
 
-.coding-skills {
+.circular-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6vw;
-    font-size: 8rem;
+    gap: 3vw;
+
+    .circular-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .circular-center-text {
+        color: var(--text-none);
+    }
 }

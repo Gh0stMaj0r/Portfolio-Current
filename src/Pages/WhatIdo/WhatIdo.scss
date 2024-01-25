@@ -24,13 +24,14 @@
     width: 100%;
     font-size: 30px;
     font-weight: 600;
-    height: 40vh;
+    height: 50vh;
 
     .icons-column {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
+        gap: 2vh;
     }
 
     .icons-row {
@@ -39,6 +40,14 @@
         justify-content: baseline;
         align-items: center;
         gap: 0.5vw;
+        border: 2px solid var(--contrast);
+        padding: 20px;
+        background-color: #161616;
+        -webkit-box-shadow: inset 0px 0px 20px 7px rgba(255,0,0,0.1);
+        -moz-box-shadow: inset 0px 0px 20px 7px rgba(255,0,0,0.1);
+        box-shadow: inset 0px 0px 20px 7px rgba(255,0,0,0.1);
+        border-radius: 1rem;
+        width: 20vw;
 
         .icon {
             color: var(--contrast);

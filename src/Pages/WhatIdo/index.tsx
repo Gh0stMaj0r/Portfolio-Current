@@ -20,10 +20,10 @@ const Skills = () => {
                         </div>
                         <div className="icons-column">
                             <div className="icons-row">
-                                <Columns className="icon"/><p>UI Design</p>
+                                <Columns className="icon"/><p>Responsive Design</p>
                             </div>
                             <div className="icons-row">
-                                <Gear className="icon"/><p>Maintenance</p>
+                                <Gear className="icon"/><p>Site Maintenance</p>
                             </div>
                         </div>
                     </div>

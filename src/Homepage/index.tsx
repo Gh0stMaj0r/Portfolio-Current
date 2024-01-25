@@ -6,6 +6,7 @@ import Navbar from "../Components/Navigation";
 import About from "../Pages/Aboutme";
 import WhatIdo from "../Pages/WhatIdo";
 import Skills from "../Pages/Skills";
+import Projects from "../Pages/Projects";
 
 const Home = () => {
     return (
@@ -19,6 +20,8 @@ const Home = () => {
         <WhatIdo/>
 
         <Skills/>
+
+        <Projects/>
         </>
     )
 }

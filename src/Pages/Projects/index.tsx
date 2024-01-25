@@ -14,8 +14,37 @@ const Projects = () => {
                     <h2>Recent Projects</h2>
                     <hr></hr>
                     <div className="cards-row">
-                        <Card
-                        sx={{height: 260, width: 250,}}/>
+                        <div className="overlay">
+                        </div>
+                        <Card sx={{height: 260, width: 350}} className='card'>
+                        <CardCover>
+                            <img className="image" src="/Images/nexcent.png"/>
+                            <div className="card-overlay">
+                                <span>asud9usadh9oas</span>    
+                            </div>    
+                        </CardCover>
+                        </Card>
+                        <div>
+                        <Card sx={{height: 260, width: 350,}} className='card'>
+                        <CardCover>
+                            <img className="image" src="/Images/powerpeak.png"/>
+                            <div className="card-overlay">
+                                <span>asud9usadh9oas</span>    
+                            </div>    
+                        </CardCover>
+                        </Card>
+                        </div>
+                        <div>
+                        <Card sx={{height: 260, width: 350,}} className='card'>
+                        <CardCover>
+                            <img className="image" src="/Images/movie-website.png"/>
+                            <div className="card-overlay">
+                                <span>asud9usadh9oas</span>    
+                            </div>            
+
+                        </CardCover>
+                        </Card>
+                        </div>
                     </div>
                 </div>
             </div>

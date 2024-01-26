@@ -1,7 +1,11 @@
 import React from "react";
 
 import './Landing.scss'
-import { CloudArrowDown, ArrowDownCircle, Steam, Github, Facebook, Linkedin, Discord } from "react-bootstrap-icons"; 
+import { CloudArrowDown, ArrowDownCircle, Steam, Github, Facebook, Linkedin, Discord } from "react-bootstrap-icons";
+import { FaHtml5, FaCss3Alt,FaReact, FaSass,FaGitAlt } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
 
 const Landing = () => {
     return (
@@ -37,6 +41,22 @@ const Landing = () => {
                     <a><Facebook className="social-icons"/></a>
                     <a href="https://www.linkedin.com/in/arttu-suhonen" target="_blank"><Linkedin className="social-icons"/></a>
                     <a href="https://discordapp.com/users/287671875121840128" target="_blank"><Discord className="social-icons"/> </a>        
+                </div>
+                <div className="tech-landing">
+                    <h3>Tech Stack</h3>
+                    <div className="hr-line-vertical">
+                        <hr></hr>
+                    </div>
+                    <div className="tech-icons-landing">
+                        <FaHtml5/>
+                        <FaCss3Alt/>
+                        <FaReact/>
+                        <FaSass/>
+                        <RiJavascriptFill />
+                        <BiLogoTypescript />
+                        <DiMysql/>
+                        <FaGitAlt />
+                    </div>
                 </div>
                 </div>
             </div>

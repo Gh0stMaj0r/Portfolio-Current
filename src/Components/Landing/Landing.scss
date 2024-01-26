@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30vh;
 
     h2 {
         font-size: 44px;
@@ -95,5 +95,30 @@
         padding: 15px;
         border-radius: 40px;
         color: var(--text-none);
+    }
+}
+
+.tech-landing {
+    font-size: 20px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    color: var(--text-none);
+
+    hr {
+        border: 2px solid var(--contrast);
+        text-align: left;
+        width: 1.2vw;
+        transform: rotate(90deg);
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .tech-icons-landing {
+        color: var(--contrast);
+        font-size: 30px;
     }
 }

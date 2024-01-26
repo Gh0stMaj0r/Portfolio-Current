@@ -7,6 +7,7 @@ import About from "../Pages/Aboutme";
 import WhatIdo from "../Pages/WhatIdo";
 import Skills from "../Pages/Skills";
 import Projects from "../Pages/Projects";
+import Contact from "../Pages/Contact";
 
 const Home = () => {
     return (
@@ -22,6 +23,8 @@ const Home = () => {
         <Skills/>
 
         <Projects/>
+
+        <Contact/>
         </>
     )
 }

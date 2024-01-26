@@ -44,6 +44,21 @@
         }
     }
 }
+  
+  .card-progress::after{
+    position: absolute;
+    content: 'In Progress';
+    top: 0px;
+    border-radius: 10px;
+    right: -14px;
+    padding: 0.5rem;
+    width: 10rem;
+    background: var(--contrast);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+  }
 
 .card-overlay {
     transform: translateY(100%);
@@ -58,4 +73,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .card-overlay-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        padding: 20px;
+
+        .overlay-heading {
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+}
+
+.overlay-buttons {
+    display: flex;
+    gap: 1rem;
+
+    .project-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 15px;
+        background-color: var(--pages);
+        color: var(--text-none);
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
 }

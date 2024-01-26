@@ -1,7 +1,7 @@
 import React from "react";
 
 import './WhatIdo.scss'
-import { CodeSquare, Phone, Columns, Gear  } from "react-bootstrap-icons";
+import { CodeSquare, Database, Columns, Gear  } from "react-bootstrap-icons";
 
 const Skills = () => {
     return (
@@ -12,10 +12,10 @@ const Skills = () => {
                     <div className="whatido-row">
                         <div className="icons-column">
                             <div className="icons-row">
-                                <CodeSquare className="icon"/><p>Web Development</p>
+                                <CodeSquare className="icon"/><p>Front-end Development</p>
                             </div>
                             <div className="icons-row">
-                                <Phone className="icon"/><p>Mobile Development</p>
+                                <Database className="icon"/><p>Back-end Development</p>
                             </div>
                         </div>
                         <div className="icons-column">

@@ -19,16 +19,16 @@ const Skills = () => {
                             <h2>Tech</h2>
                             <hr></hr>
                             <div className="icons-row">
-                                <FaHtml5/>
-                                <FaCss3Alt/>
-                                <FaReact/>
-                                <FaSass/>
+                                <FaHtml5 className="icon"/>
+                                <FaCss3Alt className="icon2"/>
+                                <FaReact className="icon3"/>
+                                <FaSass className="icon4"/>
                             </div>
                             <div className="icons-row">
-                                <RiJavascriptFill />
-                                <BiLogoTypescript />
-                                <DiMysql/>
-                                <FaGitAlt />
+                                <RiJavascriptFill className="icon5"/>
+                                <BiLogoTypescript className="icon2"/>
+                                <DiMysql className="icon6"/>
+                                <FaGitAlt className="icon7"/>
                             </div>
                         </div>
                         <div className="icons-column">

@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--pages2);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px;
+    color: var(--text-none);
+
+    hr {
+        border: 2px solid var(--contrast);
+        text-align: left;
+    }
+
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        padding: 20px 0;
+    }
+
+    .footer-icons-row {
+        display: flex;
+        gap: 1vw;
+        font-size: 30px;
+
+        .social-icons {
+            color: var(--text-none);
+        }
+    }
+}

@@ -8,6 +8,7 @@ import WhatIdo from "../Pages/WhatIdo";
 import Skills from "../Pages/Skills";
 import Projects from "../Pages/Projects";
 import Contact from "../Pages/Contact";
+import Footer from "../Components/Footer";
 
 const Home = () => {
     return (
@@ -25,6 +26,8 @@ const Home = () => {
         <Projects/>
 
         <Contact/>
+
+        <Footer/>
         </>
     )
 }

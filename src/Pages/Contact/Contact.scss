@@ -2,6 +2,10 @@
     background-color: var(--pages);
 }
 
+.flex-row {
+    display: flex;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -26,6 +30,10 @@
             gap: 1rem;
             padding: 0 0 0 60px;
 
+            h2 {
+                font-size: 2rem;
+            }
+
             hr {
                 width: 10vw;
                 border: 2px solid  var(--contrast);
@@ -49,6 +57,62 @@
                 width: 10vw;
                 border: 2px solid var(--contrast);
             }
+        }
+    }
+}
+
+.contactform {
+    padding: 100px;
+    background-color: var(--main);
+    color: var(--text-none);
+    position: relative;
+    border-radius: 33px 33px 33px 33px;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .form-flex-row {
+        display: flex;
+        gap: 1vw;
+    }
+
+    input[type=text], select, textarea {
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 10px;
+        background-color: var(--form-input);
+      }
+
+      textarea {
+        height: 10vh;
+      }
+
+    ::placeholder {
+        color: var(--text);
+    }
+
+    .form-button {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .button {
+            padding: 10px 25px 10px 25px;
+            border-radius: 10px;
+            border: none;
+            background-color: var(--contrast);
+            color: var(--text-none);
+            font-size: 15px;
         }
     }
 }

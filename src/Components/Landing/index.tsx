@@ -48,14 +48,14 @@ const Landing = () => {
                         <hr></hr>
                     </div>
                     <div className="tech-icons-landing">
-                        <FaHtml5/>
-                        <FaCss3Alt/>
-                        <FaReact/>
-                        <FaSass/>
-                        <RiJavascriptFill />
-                        <BiLogoTypescript />
-                        <DiMysql/>
-                        <FaGitAlt />
+                        <FaHtml5 className="icon"/>
+                        <FaCss3Alt className="icon2"/>
+                        <FaReact className="icon3"/>
+                        <FaSass className="icon4"/>
+                        <RiJavascriptFill className="icon5"/>
+                        <BiLogoTypescript className="icon2"/>
+                        <DiMysql className="icon6"/>
+                        <FaGitAlt className="icon7"/>
                     </div>
                 </div>
                 </div>

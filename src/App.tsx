@@ -15,9 +15,12 @@ import {
   Route
 } from 'react-router-dom';
 
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 function App() {
   return (
     <Router>
+      <SpeedInsights/>
       <Routes>
         <Route
         path='/'

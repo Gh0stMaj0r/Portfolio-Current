@@ -31,3 +31,13 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .footer-row {
+        flex-direction: column;
+
+        .footer-icons-row {
+            gap: 4vw;
+        }
+    }
+}

@@ -5,7 +5,7 @@ import { CodeSquare, Database, Columns, Gear  } from "react-bootstrap-icons";
 
 const Skills = () => {
     return (
-        <section className="whatimdoing wrapper">
+        <section className="whatimdoing wrapper" id="whatido">
             <div className="content">
                 <div className="whatido">
                     <h2>WHAT I DO</h2>

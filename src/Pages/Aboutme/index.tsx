@@ -4,7 +4,7 @@ import './Aboutme.scss'
 
 const About = () => {
     return (
-        <section className="about wrapper">
+        <section className="about wrapper" id="aboutme">
             <div className="content">
                 <div className="about-flex-column">
                     <h2>ABOUT ME</h2>

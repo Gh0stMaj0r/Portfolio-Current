@@ -90,3 +90,24 @@
         color: var(--text-none);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .myskills {
+        hr {
+            width: 10vw;
+        }
+    }
+    
+    .skills-flex-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .icons-column {
+
+            .icons-row {
+                font-size: 4rem;
+            }
+        }
+    }
+}

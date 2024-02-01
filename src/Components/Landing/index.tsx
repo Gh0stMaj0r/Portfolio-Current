@@ -9,7 +9,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 
 const Landing = () => {
     return (
-        <section className="landing wrapper">
+        <section className="landing wrapper" id="home">
             <div className="content">
                 <div className="text-landing">
                     <h2>Arttu Suhonen</h2>
@@ -31,7 +31,7 @@ const Landing = () => {
                     <button className="land-button2">
                         <ArrowDownCircle className="icon"/>
 
-                        <span>Get to know me!</span>
+                        <a href="#aboutme"><span>Get to know me!</span></a>
                     </button>
                     </div>
 

@@ -8,7 +8,7 @@ import { IoIosSend } from "react-icons/io";
 
 const Contact = () => {
     return (
-        <section className="contact wrapper">
+        <section className="contact wrapper" id="contact">
             <div className="content flex-row">
                 <div className="contact">
                     <div className="contact-element1">

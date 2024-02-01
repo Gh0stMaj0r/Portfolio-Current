@@ -9,7 +9,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 
 const Skills = () => {
     return (
-        <section className="skills wrapper">
+        <section className="skills wrapper" id="skills">
             <div className="content">
                 <div className="myskills">
                     <h2>SKILLS</h2>

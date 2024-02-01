@@ -38,7 +38,6 @@
     .icons-row {
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
         align-items: center;
         gap: 0.5vw;
         border: 2px solid var(--contrast);
@@ -52,6 +51,19 @@
 
         .icon {
             color: var(--contrast);
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .whatido-row {
+        flex-direction: row;
+        font-size: 20px;
+
+        .icons-row {
+            flex-direction: column;
+            width: 30vw;
+            gap: 1vw;
         }
     }
 }

@@ -7,7 +7,7 @@ import { Cast } from "react-bootstrap-icons";
 
 const Projects = () => {
     return (
-        <section className="projects wrapper">
+        <section className="projects wrapper" id="projects">
             <div className="content">
                 <div className="myprojects">
                     <h2>Recent Projects</h2>

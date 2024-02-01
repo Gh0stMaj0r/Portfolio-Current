@@ -109,3 +109,20 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .myprojects {
+        hr {
+            width: 10vw;
+        }
+    }
+    
+    .cards-row {
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .css-orzpmo-JoyCard-root {
+        width: 300px !important;
+    }
+}

@@ -24,7 +24,7 @@ const Landing = () => {
                     <button className="land-button">
                         <CloudArrowDown className="icon"/>
 
-                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span>Download CV</span></a>
                     </button>
 
@@ -36,11 +36,11 @@ const Landing = () => {
                     </div>
 
                 <div className="social-landing">
-                    <a href="https://steamcommunity.com/id/Gh0stMaj0r/" target="_blank"><Steam className="social-icons"/></a>
-                    <a href="https://github.com/Gh0stMaj0r" target="_blank"><Github className="social-icons"/></a>
-                    <a><Facebook className="social-icons"/></a>
-                    <a href="https://www.linkedin.com/in/arttu-suhonen" target="_blank"><Linkedin className="social-icons"/></a>
-                    <a href="https://discordapp.com/users/287671875121840128" target="_blank"><Discord className="social-icons"/> </a>        
+                    <a href="https://steamcommunity.com/id/Gh0stMaj0r/" target="_blank" rel="noopener noreferrer"><Steam className="social-icons"/></a>
+                    <a href="https://github.com/Gh0stMaj0r" target="_blank" rel="noopener noreferrer"><Github className="social-icons"/></a>
+                    <a href="developer-arttu.vercel.app"><Facebook className="social-icons"/></a>
+                    <a href="https://www.linkedin.com/in/arttu-suhonen" target="_blank" rel="noopener noreferrer"><Linkedin className="social-icons"/></a>
+                    <a href="https://discordapp.com/users/287671875121840128" target="_blank" rel="noopener noreferrer"><Discord className="social-icons"/> </a>        
                 </div>
                 <div className="tech-landing">
                     <h3>Tech Stack</h3>

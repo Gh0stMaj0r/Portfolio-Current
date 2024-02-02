@@ -38,6 +38,7 @@ const Contact = () => {
                                 <input type="text" placeholder="Lastname"></input>
                             </div>
                             <input type="text" placeholder="Email"></input>
+                            <input type="text" placeholder="Subject"></input>
                             <textarea placeholder="Message"></textarea>
                             <div className="form-button">
                                 <button className="button"><IoIosSend/> Send</button>

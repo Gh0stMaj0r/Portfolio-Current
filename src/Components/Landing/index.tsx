@@ -16,9 +16,9 @@ const Landing = () => {
                     <hr></hr>
                     <h1>Student Developer & <br></br>Future Full-Stack Developer</h1>
 
-                    <p className="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus quidem optio quaerat, beatae nulla illo alias ipsa voluptate nihil nesciunt repudiandae adipisci! 
-                    Sit fugit dolore ipsa adipisci nemo, asperiores rem!</p>
+                    <p className="intro">Welcome to my programming portfolio! 
+                    I'm a passionate coder who thrives on creative solutions and embraces challenges. 
+                    Specializing in languages like React/Typescript, HTML, CSS/SCSS and Javascript, I want to become full-stack developer in future.</p>
                     
                     <div className="landing-buttons">
                     <button className="land-button">
@@ -31,7 +31,7 @@ const Landing = () => {
                     <button className="land-button2">
                         <ArrowDownCircle className="icon"/>
 
-                        <a href="#aboutme"><span>Get to know me!</span></a>
+                        <a href="#contact"><span>Get in touch!</span></a>
                     </button>
                     </div>
 

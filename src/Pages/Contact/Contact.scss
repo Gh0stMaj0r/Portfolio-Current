@@ -151,5 +151,9 @@
             flex-direction: column;
             gap: 1vw;
         }
+
+        input[type=text] {
+            width: 80vw;
+        }
     }
 }

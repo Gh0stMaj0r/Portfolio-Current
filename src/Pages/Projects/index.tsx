@@ -13,7 +13,7 @@ const Projects = () => {
                     <h2>Recent Projects</h2>
                     <hr></hr>
                     <div className="cards-row">
-                        <Card sx={{height: 260, width: 350, border: 'none'}} className='card card-progress'>
+                        <Card sx={{border: 'none'}} className='card card-progress'>
                         <CardCover>
                             <img className="image" src="/Images/nexcent.png"/>
                             <div className="card-overlay">
@@ -35,7 +35,7 @@ const Projects = () => {
                         </CardCover>
                         </Card>
                         <div>
-                        <Card sx={{height: 260, width: 350, border: 'none'}} className='card'>
+                        <Card sx={{border: 'none'}} className='card'>
                         <CardCover>
                             <img className="image" src="/Images/powerpeak.png"/>
                             <div className="card-overlay">
@@ -59,7 +59,7 @@ const Projects = () => {
                         </Card>
                         </div>
                         <div>
-                        <Card sx={{height: 260, width: 350, border: 'none'}} className='card card-progress'>
+                        <Card sx={{border: 'none'}} className='card card-progress'>
                         <CardCover>
                             <img className="image" src="/Images/movie-website.png"/>
                             <div className="card-overlay">

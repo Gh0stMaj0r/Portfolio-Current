@@ -37,6 +37,8 @@
 .card {
     position: relative;
     overflow: hidden;
+    width: 350px;
+    height: 260px;
     
     &:hover {
         .card-overlay {
@@ -122,8 +124,8 @@
         gap: 4vh;
     }
 
-    .css-orzpmo-JoyCard-root {
-        width: 300px !important;
+    .card {
+        width: 300px;
     }
 }
 
@@ -139,7 +141,7 @@
         margin-top: 5vh;
     }
 
-    .css-orzpmo-JoyCard-root {
-        width: 200px !important;
+    .card {
+        width: 250px;
     }
 }

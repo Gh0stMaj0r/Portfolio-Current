@@ -1,12 +1,13 @@
 .header {
     overflow: hidden;
-    padding-top: 30px;
     font-family: 'Bebas Neue', sans-serif;
     position: fixed;
     top: 0;
     z-index: 999;
     font-weight: 700;
     letter-spacing: 1px;
+    background-color: var(--pages);
+    padding: 20px 0;
   }
 
   .logo:hover {

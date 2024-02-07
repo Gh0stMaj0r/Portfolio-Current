@@ -5,6 +5,7 @@
 .myprojects {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: var(--text-none);
     padding: 100px 0;
@@ -18,7 +19,6 @@
         margin: 0;
         font-size: 40px;
         font-weight: 1000;
-        padding-top: 10vh;
     }
 }
 
@@ -124,5 +124,22 @@
 
     .css-orzpmo-JoyCard-root {
         width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .myprojects {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .cards-row {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .css-orzpmo-JoyCard-root {
+        width: 250px !important;
     }
 }

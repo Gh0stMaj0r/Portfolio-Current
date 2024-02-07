@@ -163,18 +163,15 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (max-width: 992px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -205,5 +202,53 @@
                 width: 15vw;
             }
         }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .landing {
+        height: auto;
+    }
+    
+    .text-landing {
+        margin-top: 20vh;
+
+        h1, h2 {
+            font-size: 20px;
+        }
+
+        .intro {
+            font-size: 14px;
+        }
+    }
+
+    .landing-buttons {
+        padding-bottom: 4vh;
+
+        .land-button {
+            padding: 6px;
+            gap: 3vw;
+        }
+
+        .icon {
+            font-size: 25px;
+        }
+
+        .land-button2 {
+            gap: 3vw; 
+        }
+    }
+
+    .social-landing {
+        font-size: 25px;
+        gap: 5vw;
+
+        .social-icons {
+            padding: 10px;
+        }
+    }
+
+    .tech-icons-landing {
+        font-size: 20px;
     }
 }

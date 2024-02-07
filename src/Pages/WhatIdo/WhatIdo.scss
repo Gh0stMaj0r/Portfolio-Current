@@ -67,3 +67,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .whatido {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    
+    .whatido-row {
+        height: 80vh;
+    }
+}

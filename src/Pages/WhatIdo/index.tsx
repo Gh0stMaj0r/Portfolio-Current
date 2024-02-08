@@ -1,7 +1,7 @@
 import React from "react";
 
 import './WhatIdo.scss'
-import { CodeSquare, Database, Columns, Gear  } from "react-bootstrap-icons";
+import { CodeSquare, Database, Columns, Tools  } from "react-bootstrap-icons";
 
 const Skills = () => {
     return (
@@ -23,7 +23,7 @@ const Skills = () => {
                                 <Columns className="icon"/><p>Responsive Design</p>
                             </div>
                             <div className="icons-row">
-                                <Gear className="icon"/><p>Site Maintenance</p>
+                                <Tools className="icon"/><p>Site Maintenance</p>
                             </div>
                         </div>
                     </div>

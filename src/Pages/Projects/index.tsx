@@ -18,7 +18,7 @@ const Projects = () => {
                             <img className="image" src="/Images/nexcent.png"/>
                             <div className="card-overlay">
                             <div className="card-overlay-text">
-                                    <span className="overlay-heading">Nexcent - Website Example</span>
+                                    <span className="overlay-heading">Nexcent - Website</span>
                                     <span>
                                         Random Website made with React. <br></br>Still in progress...
                                     </span>

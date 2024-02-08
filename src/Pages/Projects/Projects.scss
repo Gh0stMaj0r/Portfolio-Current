@@ -127,6 +127,13 @@
     .card {
         width: 300px;
     }
+
+    .overlay-buttons {
+    
+        .project-button {
+            font-size: 10px;
+        }
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -143,5 +150,12 @@
 
     .card {
         width: 250px;
+    }
+
+    .overlay-buttons {
+    
+        .project-button {
+            font-size: 10px;
+        }
     }
 }

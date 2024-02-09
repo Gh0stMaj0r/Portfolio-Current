@@ -5,6 +5,12 @@
     height: 100vh;
 }
 
+.landing-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .text-landing {
     display: flex;
     flex-direction: column;
@@ -160,6 +166,13 @@
             color: #F1502F;
         }
     }
+}
+
+.image-me {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40vw;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

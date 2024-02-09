@@ -10,7 +10,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 const Landing = () => {
     return (
         <section className="landing wrapper" id="home">
-            <div className="content">
+            <div className="content landing-flex">
                 <div className="text-landing">
                     <h2>Arttu Suhonen</h2>
                     <hr></hr>
@@ -58,6 +58,9 @@ const Landing = () => {
                         <FaGitAlt className="icon7"/>
                     </div>
                 </div>
+                </div>
+                <div>
+                    <img src="./Images/Kuva-transparent.png" className="image-me"></img>
                 </div>
             </div>
         </section>

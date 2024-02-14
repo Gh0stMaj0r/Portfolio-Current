@@ -216,6 +216,10 @@
             }
         }
     }
+
+    .image-me {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -263,5 +267,9 @@
 
     .tech-icons-landing {
         font-size: 20px;
+    }
+
+    .image-me {
+        display: none;
     }
 }

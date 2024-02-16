@@ -41,7 +41,7 @@ const Skills = () => {
                             "--CircularProgress-size": "100px",
                             "--CircularProgress-progressThickness": "10px",
                             "--CircularProgress-trackThickness": "10px",
-                            "--CircularProgress-progressColor": "#ff0000",
+                            "--CircularProgress-progressColor": "#0000ff",
                         }}
                         determinate
                         value={100}
@@ -55,7 +55,7 @@ const Skills = () => {
                             "--CircularProgress-size": "100px",
                             "--CircularProgress-progressThickness": "10px",
                             "--CircularProgress-trackThickness": "10px",
-                            "--CircularProgress-progressColor": "#ff0000",
+                            "--CircularProgress-progressColor": "#0000ff",
                         }}
                         determinate
                         value={70}
@@ -69,7 +69,7 @@ const Skills = () => {
                             "--CircularProgress-size": "100px",
                             "--CircularProgress-progressThickness": "10px",
                             "--CircularProgress-trackThickness": "10px",
-                            "--CircularProgress-progressColor": "#ff0000",
+                            "--CircularProgress-progressColor": "#0000ff",
                         }}
                         determinate
                         value={20}

@@ -24,7 +24,7 @@ const Landing = () => {
                     <button className="land-button">
                         <CloudArrowDown className="icon"/>
 
-                        <a href="https://drive.google.com/file/d/1xz9GfoxAUKf4HRcMyfQH5VE4ZA0ZY_2g/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1EcGhy4WVRWvZxDmidB1l7vM35AgBU2If/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span>Download CV</span></a>
                     </button>
 
